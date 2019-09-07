@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="message_dialog_exist" >(Nhấn có để thoát, và không để tiếp tục)</string>
+    <string name="message_dialog_exist_title" >Bạn có muốn thoát chương trình không ?</string>
+    <string name="message_dialog_ok" >Có</string>
+    <string name="message_dialog_cancel">Không</string>
+
+
+</resources>

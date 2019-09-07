@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.student.myapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/textViewMK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editTextMK"
+        android:layout_alignParentStart="true"
+        android:layout_weight="1"
+        android:text="Mật khẩu :"
+        android:textSize="18sp"
+        tools:text="Mật khẩu :" />
+
+    <TextView
+        android:id="@+id/textViewTK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:layout_weight="1"
+        android:text="Tài khoản :"
+        android:textSize="18sp"
+        tools:text="Tài khoản :" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:text="ĐĂNG NHẬP HỆ THỐNG"
+        android:textAlignment="center"
+        android:textColor="?android:attr/colorActivatedHighlight"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTK"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewTK"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/editTextMK"
+        android:ems="10"
+        android:hint="không được để trống "
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextMK"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="17dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="127dp"
+        android:layout_toEndOf="@+id/textViewTK"
+        android:ems="10"
+        android:hint="không được để trống "
+        android:inputType="textPersonName" />
+
+    <CheckBox
+        android:id="@+id/checkBoxLuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="186dp"
+        android:layout_toEndOf="@+id/textViewTK"
+        android:text="Lưu thông tin" />
+
+    <Button
+        android:id="@+id/buttonThoat"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/buttonDN"
+
+        android:text="Thoát" />
+
+    <Button
+        android:id="@+id/buttonDN"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="218dp"
+        android:text="Đăng nhập" />
+</RelativeLayout>
